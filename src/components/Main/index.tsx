@@ -1,6 +1,6 @@
 export function Main() {
   return (
-    <div>Main</div>
+    <h1>Main</h1>
 
   );
 }

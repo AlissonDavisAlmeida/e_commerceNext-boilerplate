@@ -1,6 +1,10 @@
 import * as Style from './styles';
 
-export function Main() {
+export type MainProps = {
+  title?: string;
+};
+
+export function Main({ title }: MainProps) {
   return (
     <Style.Wrapper
       data-testid="main-wrapper"

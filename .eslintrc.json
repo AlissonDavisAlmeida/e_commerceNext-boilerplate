@@ -8,6 +8,7 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
+  "parser": "@typescript-eslint/parser",
   "ignorePatterns": [
     "**/*.js",
     "**/*.jsx"

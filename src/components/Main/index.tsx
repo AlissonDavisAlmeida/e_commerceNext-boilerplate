@@ -1,7 +1,17 @@
+import * as Style from './styles';
+
 export function Main() {
-  const name = 'ad';
   return (
-    <h1>Main</h1>
+    <Style.Wrapper
+      data-testid="main-wrapper"
+    >
+      <Style.Logo src="/images/logo.svg" alt="Imagem de um átomo e React Avançado ao lado" />
+      <Style.Title>React Avançado</Style.Title>
+      <Style.Description>
+        TypeScript, ReactJS, NextJS e Styled Components
+      </Style.Description>
+      <Style.Illustration src="/images/hero-illustration.svg" alt="Um desenvolvedor de frente para uma tela com código" />
+    </Style.Wrapper>
 
   );
 }
